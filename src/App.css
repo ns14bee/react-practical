@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.theme-light {
+  --bg: #ffffff;
+  --text: #111827;
+}
+
+.theme-dark {
+  --bg: #111827;
+  --text: #f9fafb;
+}
+
+.theme-gray {
+  --bg: #f3f4f6;
+  --text: #1f2937;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
